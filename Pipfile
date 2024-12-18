@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+dowhy = "*"
+causal-learn = "*"
+ipywidgets = "*"
+ipykernel = "*"
+typing-extensions = "*"
+cdt = "*"
+torch = "*"
+ipdb = "*"
+seaborn = "*"
+pgmpy = "*"
+daft = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
